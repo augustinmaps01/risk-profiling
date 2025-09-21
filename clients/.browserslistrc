@@ -1,0 +1,9 @@
+> 0.1%
+not ie <= 8
+ie >= 11
+chrome >= 39
+firefox >= 31
+safari >= 8
+ios_saf >= 8
+android >= 4.1
+op_mini all

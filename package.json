@@ -1,0 +1,15 @@
+{
+  "name": "risk-profiling-app",
+  "version": "1.0.0",
+  "description": "Risk Profiling Application - Full Stack",
+  "scripts": {
+    "dev": "concurrently \"npm run backend\" \"npm run frontend\"",
+    "backend": "cd risk && php artisan serve",
+    "frontend": "cd clients && npm run dev",
+    "install:all": "cd risk && composer install && cd ../clients && npm install",
+    "build": "cd clients && npm run build"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
